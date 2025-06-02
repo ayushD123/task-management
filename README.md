@@ -34,7 +34,7 @@ A modern task management application built with Next.js 14, TypeScript, Tailwind
 
 ## Deployment
 
-This project is deployed on Vercel. Visit the live site at [your-vercel-url].
+This project is deployed on Vercel. Visit the live site at https://task-management-o13358a0s-ayushd123s-projects.vercel.app
 
 ## License
 
