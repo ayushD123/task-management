@@ -13,17 +13,6 @@ export function TaskCard({ task }: TaskCardProps) {
     updateTask(task.id, { status: newStatus })
   }
 
-  const getStatusColor = (status: Task['status']) => {
-    switch (status) {
-      case 'todo':
-        return 'bg-yellow-100 text-yellow-800'
-      case 'in-progress':
-        return 'bg-blue-100 text-blue-800'
-      case 'done':
-        return 'bg-green-100 text-green-800'
-    }
-  }
-
   return (
     <div 
       className="bg-gray-900/50 backdrop-blur-sm p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-800 animate-in slide-in-from-right-5 fade-in duration-500"
